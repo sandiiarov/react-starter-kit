@@ -33,8 +33,7 @@
     "eslint-plugin-react": "^7.7.0",
     "flow-bin": "^0.66.0",
     "flow-typed": "^2.3.0",
-    "html-webpack-plugin":
-      "github:webpack-contrib/html-webpack-plugin#a8a8c2b6ea496c257fd6f501db3a06a51fa03e1e",
+    "html-webpack-plugin": "github:webpack-contrib/html-webpack-plugin#a8a8c2b6ea496c257fd6f501db3a06a51fa03e1e",
     "prettier": "^1.11.0",
     "prettier-eslint-cli": "^4.7.1",
     "style-loader": "^0.20.2",
@@ -44,10 +43,8 @@
     "webpack-dev-server": "^3.0.0"
   },
   "scripts": {
-    "start":
-      "cross-env NODE_ENV=development webpack-dev-server --mode development --hot --config ./webpack.dev.config.js",
-    "build":
-      "cross-env NODE_ENV=production webpack --mode production --config ./webpack.prod.config.js"
+    "start": "cross-env NODE_ENV=development webpack-dev-server --hot --config ./webpack.dev.config.js",
+    "build": "cross-env NODE_ENV=production webpack --config ./webpack.prod.config.js"
   },
   "repository": {
     "type": "git",

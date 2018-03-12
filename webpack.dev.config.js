@@ -9,4 +9,4 @@ module.exports = R.compose(
   rules([RULES.babel, RULES.css, RULES.assets]),
   plugins,
   common
-)({});
+)({ mode: 'development' });
