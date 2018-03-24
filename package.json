@@ -24,7 +24,7 @@
     "@babel/preset-react": "^7.0.0-beta.42",
     "@babel/preset-stage-1": "^7.0.0-beta.42",
     "babel-eslint": "^8.2.2",
-    "babel-loader": "^7.1.4",
+    "babel-loader": "^8.0.0-beta",
     "cross-env": "^5.1.4",
     "css-loader": "^0.28.11",
     "eslint": "^4.19.1",
