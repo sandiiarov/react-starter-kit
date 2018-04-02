@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "ramda": "^0.25.0",
-    "react": "^16.3.0-alpha.3",
-    "react-dom": "^16.3.0-alpha.3",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
     "react-hot-loader": "^4.0.0",
     "recompose": "^0.26.0"
   },
