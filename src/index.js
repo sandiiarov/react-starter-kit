@@ -1,11 +1,8 @@
-// @flow
-
-import React from 'react';
-import { render } from 'react-dom';
+import * as React from 'react';
+import ReactDOM from 'react-dom';
 import App from './App';
 
-const root = document.createElement('div');
+const container = document.getElementById('root');
+const root = ReactDOM.createRoot(container);
 
-if (document.body) document.body.appendChild(root);
-
-render(<App />, root);
+root.render(<App />);

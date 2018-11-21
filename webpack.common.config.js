@@ -16,11 +16,6 @@ const RULES = {
     use: 'babel-loader',
     exclude: /node_modules/,
   },
-  css: {
-    test: /\.css$/,
-    use: ['style-loader', 'css-loader'],
-    exclude: /node_modules/,
-  },
   assets: {
     test: /\.(png|jpe?g|svg|woff2?|ttf|eot)$/,
     use: 'url-loader?limit=8000',

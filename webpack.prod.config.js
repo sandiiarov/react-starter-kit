@@ -5,7 +5,7 @@ const { common, resolve, rules, plugins, RULES } = config;
 
 module.exports = R.compose(
   resolve,
-  rules([RULES.babel, RULES.css, RULES.assets]),
+  rules([RULES.babel, RULES.assets]),
   plugins,
   common
 )({ mode: 'production' });

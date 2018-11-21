@@ -6,7 +6,7 @@ const { common, development, resolve, rules, plugins, RULES } = config;
 module.exports = R.compose(
   development,
   resolve,
-  rules([RULES.babel, RULES.css, RULES.assets]),
+  rules([RULES.babel, RULES.assets]),
   plugins,
   common
 )({ mode: 'development' });
