@@ -1,22 +1,4 @@
-const R = require('ramda');
-
-const isDev = process.env.NODE_ENV === 'development';
-const browsers = isDev ? ['last 1 Chrome version'] : ['defaults'];
-const envOptions = {
-  modules: false,
-  loose: true,
-  useBuiltIns: 'usage',
-  targets: { browsers },
-};
-
-const presets = R.filter(Boolean)([
-  [require.resolve('@babel/preset-env'), envOptions],
-  [require.resolve('@babel/preset-react'), { development: isDev }],
-]);
-
-const plugins = R.filter(Boolean)([require.resolve('react-hot-loader/babel')]);
-
 module.exports = {
-  presets,
-  plugins,
+  presets: ['@babel/env', '@babel/react'],
+  plugins: ['react-hot-loader/babel'],
 };
