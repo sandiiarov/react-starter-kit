@@ -10,8 +10,8 @@
     "build": "webpack -p"
   },
   "dependencies": {
-    "react": "16.7.0-alpha.2",
-    "react-dom": "16.7.0-alpha.2",
+    "react": "16.7.0",
+    "react-dom": "16.7.0",
     "react-hot-loader": "^4.6.1"
   },
   "devDependencies": {
